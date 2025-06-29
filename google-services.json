@@ -1,0 +1,40 @@
+{
+  "type": "service_account",
+  "project_id": "tradelizer-mobile-90501",
+  "private_key_id": "fa0cd06c8afa98706b57bb14873eec0173769fd4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC8LeC7pUK1SrIR\n8WahGrGqfnzutl8oAXwU/1XXvbKno51/IZrymIVmZ1JcNaFsGhjoTSEUUz9lQ8Of\nryj6cUifTPAwCDQUKRrqfHQafhL0tp43y6YzBhR0Slc3+uvSFf/EeRPcH8hiIPwZ\nNgjjGjOikCIewP0xoRHiYfRXbgm9KSemlvpKk9UP7OVfDjU2fNRTH5CjdL2FhFWr\nXDAp3aHgaiu/w7M4UafH7Om7kNCqMd8SHRP2pC8GGoA2TGZc/dUjjGLF8awTVSc2\nfoVXZbDY52CzTBjShRZH2wnovZO6QKhVqAq7J4BZaayaWf/e9H0DjAZxkbOq0Ri4\n7Ww7eYe1AgMBAAECggEAB47fKyI+3Om4X7yepuNb1fF5IpxcE48FtRExWTYzDgUm\nDwRiRRKnrv6A4he8WUtuCyyH4tlaHz7axVfjcTWqGU3disxVjSa+gEMJ5cOBDuej\n0LFjBkMdALO4r5SqMpi0GmfTiqCTK4/QGFIhhr+XadTYrfwJ31utDHbrObS/euOx\n5E9CCvMz6tJ7PcEbISMyAjCuT9OR9y8KaXkppSrUtzOq/hsBSG5rzW+lL1WhLeGh\nu7CUpsrwEr/qzHfLOjSjBaCl/do2c537cxchDo+KSyFHEGkqmVYt003vKnW1tQTW\nZSHFc41KE9R149Dt43v6paASUIWx8mx+TXrK2rQXgQKBgQDeNsHsdFo33uVv3PRo\nns44p2bCMX1gss4Z/oO7diz1Ed76Q2Pk1JF0R6luTOlov8nW/npHJ1itWg844sEj\nhPGaqI6tvFyDIHunXuqZRFbKKIQI3DgFMyuBGxy+/aSc7fX0M1SuqQXiixAwjNGA\nBlsyF/3SX06XMweoX+8TfHplgQKBgQDYymL2t+40nY0twnMwIkNxZnUwhr3hdFlx\nPLP5QMLZTEHkgY2mCPF2ZvVAvZ5uy56B9G9kTApVkqlQSPVfMaINYH8qpKkXjnbg\nSbL7GzGiqrEUbImJIXmD6eEjIICx3tbCbv7DixGtpaUBlOfczmAkeEls7qQ5ODZL\nRY6898yENQKBgCV72SR40Asip1NCU1wehaza2COj04FvSALsgu4pVhYU6KcQnRYp\noUubFwKLKMhJqdOBY8EC6xt62JyA65GBSHwNONwnrPdVkGZARZSLCZTaVsNj2nNO\nGWWS3Dt/b7glD9scmYlI67w2NwnphyFwcQu3LlLBTvGEYyNM43hHBCKBAoGAHZiL\nqCj2ESLNKkkYlqKm2G1nZEeQ1p2etFHYNBf+QdIiUMLLBrbD2Ck4JC1+2ptbuVwY\ndPXYl1QdX0OGlAdfmznoQncWSov9eKM3FwbgYNeysxoaMKlsQHEGdlgymZXVddfX\nWfS7ZhxuCWg9uyxFfdUaGQ//RXyCFQaa9PtTZV0CgYBerrB0H++4UD1rDvxvvvWT\n4oddt5Cjgm8OSJSPjWx+iw3cEcLW/mQrusjKK9lwQghc9P7AWNrzbzrj7QoHN4Yi\n2B/F2k3GWE/TYdPXVd819u1v0C0dFflI+3P12+b2swcGaIdU8CE9lLHd26wHTJyE\ne78iCVB0p/nQZYezGFr7wA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@tradelizer-mobile-90501.iam.gserviceaccount.com",
+  "client_id": "100079634845841579606",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40tradelizer-mobile-90501.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com",
+  "project_info": {
+    "project_number": "263434929783",
+    "project_id": "tradelizer-mobile-90501",
+    "storage_bucket": "tradelizer-mobile-90501.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263434929783:android:044171c5cd43badfa5a872",
+        "android_client_info": {
+          "package_name": "com.tradelizer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYRmm6A1fsYssVXwQ1t_3e5aIDLAdvXTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

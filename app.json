@@ -1,0 +1,114 @@
+{
+  "expo": {
+    "name": "JSJ Customer",
+    "slug": "jsj-customer",
+    "version": "1.0.0",
+    "scheme": "jaisaiji",
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "http://example.com/"
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#000000",
+          "image": "./assets/splash/logojsj.png",
+          "resizeMode": "cover",
+          "dark": {
+            "image": "./assets/splash/logojsj.png",
+            "backgroundColor": "#000000"
+          }
+        }
+      ],
+      [
+        "expo-font"
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
+    "entitlements": {
+      "com.apple.developer.networking.wifi-info": true
+    },
+    "orientation": "portrait",
+    "icon": "./assets/logo/logojsj.png",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "newArchEnabled": true,
+    "owner": "igurpreet01",
+    "description": "JSJ customer app",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/logo/logo-dark.png"
+    },
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "splash": {
+      "image": "./assets/logo/logojsj.png",
+      "backgroundColor": "#000000",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jaisaiji.customer",
+      "privacyManifests": {
+        "NSPrivacyAccessedAPITypes": [
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryUserDefaults",
+            "NSPrivacyAccessedAPITypeReasons": [
+              "CA92.1"
+            ]
+          }
+        ]
+      },
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSLocationWhenInUseUsageDescription": "This app needs location access to show your position on the map."
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "package": "com.jaisaiji.customer",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo/ic_launcher_foreground.png",
+        "ic_launcher_foreground": "./assets/logo/ic_launcher_foreground.png",
+        "backgroundColor": "#000000"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#000000"
+    },
+    "extra": {
+      "router": {
+        "origin": "http://example.com/"
+      },
+      "eas": {
+        "projectId": "e33aa740-f54c-4a0c-9880-1ae08b7908a9"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/cd63f77d-82f8-466f-acf4-f86ce49b0537"
+    }
+  }
+}
