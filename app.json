@@ -38,7 +38,7 @@
     },
     "orientation": "portrait",
     "icon": "./assets/logo/logojsj.png",
-    "userInterfaceStyle": "automatic",
+    "userInterfaceStyle": "light",
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -73,6 +73,12 @@
             "NSPrivacyAccessedAPITypeReasons": [
               "CA92.1"
             ]
+          },
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryUserDefaults",
+            "NSPrivacyAccessedAPITypeReasons": [
+              "CA92.1"
+            ]
           }
         ]
       },
@@ -90,6 +96,7 @@
         "backgroundColor": "#000000"
       },
       "permissions": [
+        "android.permission.RECORD_AUDIO",
         "android.permission.RECORD_AUDIO"
       ]
     },
@@ -108,7 +115,7 @@
       }
     },
     "updates": {
-      "url": "https://u.expo.dev/cd63f77d-82f8-466f-acf4-f86ce49b0537"
+      "url": "https://u.expo.dev/e33aa740-f54c-4a0c-9880-1ae08b7908a9"
     }
   }
 }
