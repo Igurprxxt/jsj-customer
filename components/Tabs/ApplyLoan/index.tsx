@@ -23,7 +23,7 @@ export default function ApplyLoan() {
   return (
     <View className="flex-1 bg-white px-6 py-8 dark:bg-black">
       <ScreenHeader
-        title="Apply for a Loan"
+        title="Request for another account"
         description="Get your loan approved in less than 24 hours"
         back
       />

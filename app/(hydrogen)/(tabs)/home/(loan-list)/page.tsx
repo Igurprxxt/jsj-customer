@@ -1,4 +1,4 @@
-import React from 'react'; // Import React
+import React from 'react';
 import LoanList from '~/components/Tabs/LoanList';
 
 const PageComponent = () => {

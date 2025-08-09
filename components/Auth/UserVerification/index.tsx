@@ -37,7 +37,6 @@ const UserVerification = () => {
     setShowCamera(false);
     setShowInput(!showInput);
   };
-
   const onSubmitInput = () => {
     if (!customerId) {
       showToast('Please fill customer id!', 'error');

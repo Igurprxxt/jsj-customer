@@ -53,7 +53,7 @@ export default function TabLayout() {
           },
           {
             name: 'loan',
-            label: 'Apply Loan',
+            label: 'Request Acc.',
             icon: (color: any) => <MaterialIcons name="attach-money" size={24} color={color} />,
           },
           {

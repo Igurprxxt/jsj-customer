@@ -19,7 +19,7 @@ const navItems = [
     icon: <Ionicons name="wallet-outline" size={32} color="#FFAC1C" />,
   },
   {
-    label: 'Apply Loan',
+    label: 'Request Acc.',
     route: routes.tabs.apply_loan,
     icon: <Ionicons name="person-circle-outline" size={32} color="#FFAC1C" />,
   },
